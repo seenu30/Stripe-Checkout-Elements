@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Environment variables
+.env
+
+# Build and output directories
+dist/
+build/
+.next/
+out/
+coverage/
+
+# TypeScript compilation output
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Drizzle ORM files
+drizzle/migrations/
+drizzle/schema.ts
+
+# VS Code settings
+.vscode/
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+.idea/
+*.swp
+*.swo
